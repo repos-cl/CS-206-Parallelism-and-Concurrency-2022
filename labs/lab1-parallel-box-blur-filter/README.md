@@ -20,17 +20,6 @@ git clone -b scalashop git@gitlab.epfl.ch:lamp/student-repositories-s21/cs206-GA
 If you see compilation errors even though you did not write any code yet, it means
 you're not using the correct version of Java, see step 2 and 3 of the [tool setup page](https://gitlab.epfl.ch/lamp/cs206/blob/master/labs/tools-setup.md).
 
-### Fixing spurious errors in the IDE
-
-When you open the project in the IDE, you might see red lines under valid code,
-to fix this problem:
-
-1. Delete the file `Interfaces.scala` in `src/main/scala/scalashop`
-2. Open the file `package.scala` in `src/main/scala/scalashop`
-3. In `package.scala`, copy-paste the content of https://gitlab.epfl.ch/lamp/cs206-2020/snippets/33/raw
-   **below** the line `import org.scalameter._`
-4. Save the file, quit the IDE and run `launchIDE` again.
-
 ## Setup scalashop
 
 In this assignment, we will implement a box blur filter, used in applications
