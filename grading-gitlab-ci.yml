@@ -21,6 +21,14 @@ compile:
   except:
     - tags
     - master
+    - exercise-1
+    - exercise-2
+    - exercise-3
+    - exercise-4
+    - exercise-5
+    - exercise-6
+    - exercise-7
+    - exercise-8
   script:
     - sbt packageSubmission
   # Output of this job that needs to be stored to be reused in the grade job below
@@ -35,6 +43,14 @@ grade:
   except:
     - tags
     - master
+    - exercise-1
+    - exercise-2
+    - exercise-3
+    - exercise-4
+    - exercise-5
+    - exercise-6
+    - exercise-7
+    - exercise-8
   tags:
     - cs210
   image:
