@@ -217,8 +217,7 @@ scala> max(List(1,3,2))
 res1: Int = 3
 ```
 
-You can enter a multiline expression in the REPL by using `Alt+Enter`
-(`Option+Enter` on macOS) instead of `Enter`:
+You can enter a multiline expression in the REPL by using `Alt+Enter` instead of `Enter`:
 
 ```scala
 scala> if 1 == 1 then
@@ -227,6 +226,10 @@ scala> if 1 == 1 then
      |   "b"
 val res0: String = a
 ```
+
+(on macOS, first go to `Terminal -> Preference -> Profiles -> Keyboard` and then
+select `Use Option as Meta key`, then `Option+Enter` will work for multiline
+expressions.)
 
 In order to exit the Scala REPL and go back to sbt, type `Ctrl+D`.
 
