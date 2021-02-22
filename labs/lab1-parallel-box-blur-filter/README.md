@@ -10,15 +10,12 @@ git clone -b scalashop git@gitlab.epfl.ch:lamp/student-repositories-s21/cs206-GA
 
   * [A guide to the Scala parallel collections](https://docs.scala-lang.org/overviews/parallel-collections/overview.html)
   * [The API documentation of the Scala parallel collections](https://www.javadoc.io/doc/org.scala-lang.modules/scala-parallel-collections_2.13/latest/scala/collection/index.html)
-  * [The API documentation of the Scala standard library](https://www.scala-lang.org/files/archive/api/2.13.1)
-  * [The API documentation of the Java standard library](https://docs.oracle.com/en/java/javase/13/docs/api/index.html)
+  * [The API documentation of the Scala standard library](https://www.scala-lang.org/files/archive/api/2.13.4)
+  * [The API documentation of the Java standard library](https://docs.oracle.com/en/java/javase/15/docs/api/index.html)
 
-## Troubleshooting
-
-### Compilation fails
-
-If you see compilation errors even though you did not write any code yet, it means
-you're not using the correct version of Java, see step 2 and 3 of the [tool setup page](https://gitlab.epfl.ch/lamp/cs206/blob/master/labs/tools-setup.md).
+**If you have issues with the IDE, try [reimporting the
+build](https://gitlab.epfl.ch/lamp/cs206/-/blob/master/labs/example-lab.md#ide-features-like-type-on-hover-or-go-to-definition-do-not-work),
+if you still have problems, use `compile` in sbt instead.**
 
 ## Setup scalashop
 
