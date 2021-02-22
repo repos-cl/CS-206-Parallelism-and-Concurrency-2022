@@ -15,26 +15,14 @@ stages:
 compile:
   stage: build
   timeout: 15m
-  image: lampepfl/dotty:2020-11-19
+  image: lampepfl/moocs:cs206-2021-02-22
   tags:
     - cs210
   except:
     - tags
     - master
-  # Caching is only allowed for directories inside the current project, so we make sure
-  # all our caches are inside CI_PROJECT_DIR:
   script:
-    - XDG_CACHE_HOME=${CI_PROJECT_DIR}/.cache sbt -Dsbt.boot.directory="${CI_PROJECT_DIR}/.sbt-boot" -Dsbt.ivy.home="${CI_PROJECT_DIR}/.ivy2" packageSubmission
-  # Careful: using a cache on a gitlab-runner means that a cache.zip file will
-  # be downloaded to each container, this can quickly fill up disk space on the
-  # runner space. To mitigate this we use a `docker-prune` systemd timer that
-  # runs `docker system prune --force --volumes -a`.
-  cache:
-    key: cs206-2021
-    paths:
-      - .cache/
-      - .sbt-boot/
-      - .ivy2/cache/
+    - sbt packageSubmission
   # Output of this job that needs to be stored to be reused in the grade job below
   artifacts:
     expire_in: 1 day
