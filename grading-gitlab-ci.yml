@@ -1,0 +1,61 @@
+# This CI config file is not used in this repository but instead referenced
+# from each student project (https://gitlab.epfl.ch/help/ci/pipelines/settings#custom-ci-configuration-path)
+# and used to grade them.
+
+workflow:
+  rules:
+    # Don't run the CI on commit messages contain "[no-ci]", used to deploy
+    # assignments without overloading the CI.
+    - if: $CI_COMMIT_MESSAGE !~ /\[no-ci\]/
+
+stages:
+  - build
+  - grade
+
+compile:
+  stage: build
+  timeout: 15m
+  image: lampepfl/dotty:2020-11-19
+  tags:
+    - cs210
+  except:
+    - tags
+    - master
+  # Caching is only allowed for directories inside the current project, so we make sure
+  # all our caches are inside CI_PROJECT_DIR:
+  script:
+    - XDG_CACHE_HOME=${CI_PROJECT_DIR}/.cache sbt -Dsbt.boot.directory="${CI_PROJECT_DIR}/.sbt-boot" -Dsbt.ivy.home="${CI_PROJECT_DIR}/.ivy2" packageSubmission
+  # Careful: using a cache on a gitlab-runner means that a cache.zip file will
+  # be downloaded to each container, this can quickly fill up disk space on the
+  # runner space. To mitigate this we use a `docker-prune` systemd timer that
+  # runs `docker system prune --force --volumes -a`.
+  cache:
+    key: cs206-2021
+    paths:
+      - .cache/
+      - .sbt-boot/
+      - .ivy2/cache/
+  # Output of this job that needs to be stored to be reused in the grade job below
+  artifacts:
+    expire_in: 1 day
+    paths:
+      - submission.jar
+
+grade:
+  stage: grade
+  timeout: 15m
+  except:
+    - tags
+    - master
+  tags:
+    - cs210
+  image:
+    name: lampepfl/moocs:cs206-2021-${CI_COMMIT_BRANCH}
+    entrypoint: [""]
+  allow_failure: true
+  before_script:
+    - mkdir -p /shared/submission/
+    - cp submission.jar /shared/submission/submission.jar
+  script:
+    - cd /grader
+    - /grader/grade | /grader/feedback-printer
