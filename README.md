@@ -145,7 +145,7 @@ Labs are submitted by pushing your code on GitLab, see details in the [grading a
 
 | Labs  | Name                       | Start date | Due date (23:59 [AoE](https://en.wikipedia.org/wiki/Anywhere_on_Earth)) |
 | :--   | :--                        | :--        | :--        |
-| Lab 1 | Parallel Box Blur Filter   | 22.02.21   | 07.03.2021 |
+| Lab 1 | Parallel Box Blur Filter   | 24.02.21   | 07.03.2021 |
 | Lab 2 | Reductions and Prefix Sums | 01.03.21   | 14.03.2021 |
 | Lab 3 | K-Means                    | 08.03.21   | 21.03.2021 |
 | Lab 4 | Barnes-Hut Simulation      | 15.03.21   | 28.03.2021 |
