@@ -51,6 +51,8 @@ brew install coursier/formulas/coursier
 cs setup -y --jvm 8 --apps sbt
 ```
 
+Please close this terminal and open a new one after this point.
+
 ### On Windows
 
 Download and install the [Visual C++ 2010 SP1 Redistributable Package](https://www.microsoft.com/en-us/download/details.aspx?id=13523).
@@ -94,6 +96,8 @@ step):
 
 **In case of errors please ask on Discord or Gitlab issues for help, but don't
 try to run commands as Administrator as this will likely cause further issues!**
+
+Please close this terminal and open a new one after this point.
 
 ## Step 5: Installing git
 
