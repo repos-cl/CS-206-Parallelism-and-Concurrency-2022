@@ -43,7 +43,7 @@ In the first week of the semester, there will be a live Zoom session on Wednesda
 
 | Week | Date     | Topic            | Lectures (14:15-16:00) | Exercises (14:15-16:00) | Labs (16:15-18:00) |
 | :--  | :--      | :--              | :--                    | :--                     | :--                |
-| 1    | 24.02.21 | Parallelism 1    | Prerecorded            | [Welcome Zoom session][Zoom1] | Lab 1              |
+| 1    | 24.02.21 | Parallelism 1    | Prerecorded            | Welcome Zoom session    | Lab 1              |
 | 2    | 03.03.21 | Parallelism 2    | Prerecorded            | Exercise 1              | Lab 1 & 2          |
 | 3    | 10.03.21 | Parallelism 3    | Prerecorded            | Exercise 2              | Lab 2 & 3          |
 | 4    | 17.03.21 | Parallelism 4    | Prerecorded            | Exercise 3              | Lab 3 & 4          |
@@ -62,6 +62,9 @@ In the first week of the semester, there will be a live Zoom session on Wednesda
 Solutions to the exercises are released after each deadline. We do not provide solutions for the labs.
 
 Before each Discord session, students should watch videos corresponding to that week's topic:
+
+### Intro
+- [Welcome Zoom session][Zoom1]
 
 ### Parallelism 1: Introduction to Parallel Programming
 
