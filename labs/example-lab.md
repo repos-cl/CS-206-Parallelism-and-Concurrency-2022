@@ -260,6 +260,15 @@ will be shown in green on the right.
 
 # Troubleshooting
 
+## sbt fails to start
+
+If you see any kind of error when sbt starts that prevents you from using it,
+try cleaning the project cache by running:
+```shell
+git clean -Xdf
+```
+Then restarting `sbt`.
+
 ## IDE features like type-on-hover or go-to-definition do not work
 
 It's likely that the build wasn't imported, we can import it manually:
