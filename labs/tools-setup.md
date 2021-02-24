@@ -32,6 +32,8 @@ chmod +x cs
 ./cs setup -y --jvm 8 --apps cs,sbt
 ```
 
+Please reboot after this point.
+
 ### On macOS
 
 First, install the Homebrew package manager:
