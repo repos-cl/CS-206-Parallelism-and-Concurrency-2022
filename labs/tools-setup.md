@@ -137,7 +137,7 @@ See [https://code.visualstudio.com/docs/setup/linux](https://code.visualstudio.c
 ### On macOS
 
 ```shell
-brew cask install visual-studio-code
+brew install --cask visual-studio-code
 ```
 
 ### On Windows
