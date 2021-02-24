@@ -38,7 +38,7 @@ Please reboot after this point.
 
 First, install the Homebrew package manager:
 ```shell
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 Use Homebrew to install coursier:
 ```scala
