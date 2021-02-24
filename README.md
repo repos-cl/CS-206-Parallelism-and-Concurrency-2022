@@ -43,7 +43,7 @@ In the first week of the semester, there will be a live Zoom session on Wednesda
 
 | Week | Date     | Topic            | Lectures (14:15-16:00) | Exercises (14:15-16:00) | Labs (16:15-18:00) |
 | :--  | :--      | :--              | :--                    | :--                     | :--                |
-| 1    | 24.02.21 | Parallelism 1    | Prerecorded            | Welcome Zoom session    | Lab 1              |
+| 1    | 24.02.21 | Parallelism 1    | Prerecorded            | [Welcome Zoom session][Zoom1] | Lab 1              |
 | 2    | 03.03.21 | Parallelism 2    | Prerecorded            | Exercise 1              | Lab 1 & 2          |
 | 3    | 10.03.21 | Parallelism 3    | Prerecorded            | Exercise 2              | Lab 2 & 3          |
 | 4    | 17.03.21 | Parallelism 4    | Prerecorded            | Exercise 3              | Lab 3 & 4          |
@@ -182,3 +182,5 @@ The midterm exam will take place on 14.04.21. The midterm exam will cover all th
 The final exam will take place on 02.06.21. The final exam will cover all material seen during the semester.
 
 Information about exams organization will be communicated by email.
+
+[Zoom1]: https://epfl.zoom.us/rec/share/wKUHvD1vNyczKpb2e161QCnqi3BtURL5D9zfVie3iXqXmrsIbJ2lrl4cCO_1FgSx.ZfvYlrRfSAFFdMcq?startTime=1614170578000
