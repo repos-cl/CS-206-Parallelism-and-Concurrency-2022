@@ -82,6 +82,14 @@ Time to go fix that bug! The next section will show you how to do that using the
 
 ## Part 3: Using the IDE
 
+### Setup
+
+Let's upgrade the IDE support first, close VSCode if it's open and run:
+
+```shell
+code --force --install-extension scalameta.metals
+```
+
 ### Startup
 
 To start Code, run the following in the project directory (the same directory where you

@@ -1,5 +1,13 @@
 # Parallel Box Blur Filter
 
+## Setup
+
+Let's upgrade the IDE support first, close VSCode if it's open and run:
+
+```shell
+code --force --install-extension scalameta.metals
+```
+
 Use the following commands to make a fresh clone of your repository:
 
 ```
