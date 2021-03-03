@@ -164,7 +164,7 @@ Exercises are pen and paper style questions that will help you consolidate the k
 Exercises should be done in groups and submitted on GitLab.
 You should form groups of up to five students for each exercise, solve the exercise remotely with your group (using Discord, Hangouts, Zoom, ...), and write your solutions in a text file.
 The first line of your solution file should list all the group members' SCIPER numbers.
-After you solve the exercise with your group, each member should submit a copy of this file to their GitLab repository following the instructions given in the problem statement.
+After you solve the exercise with your group, **each member should submit a copy of this file** to their GitLab repository following the instructions given in the problem statement.
 Exercises will be given a participation grade at the end of the semester, which accounts for 5% of the overall course grade.
 
 | Exercises  | Start date | Due date (23:59 [AoE](https://en.wikipedia.org/wiki/Anywhere_on_Earth)) |
