@@ -267,7 +267,11 @@ try cleaning the project cache by running:
 ```shell
 git clean -Xdf
 ```
-Then restarting `sbt`.
+Then restarting `sbt`, if this still doesn't work, try deleting the global sbt
+cache:
+```shell
+rm -r ~/.sbt
+```
 
 ## IDE features like type-on-hover or go-to-definition do not work
 
