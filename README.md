@@ -105,7 +105,7 @@ Before each Discord session, students should watch videos corresponding to that 
 ### Concurrency 1, 2 & 3
 
 - Live lectures
-  - [Concurrency 1 (Zoom)][ZoomConcurrency1]: 24.03.21 14:15-16:00
+  - [Concurrency 1 (Recorded Zoom)][ZoomConcurrency1]
 
 ### Actors 1
 
@@ -188,6 +188,6 @@ The final exam will take place on 02.06.21. The final exam will cover all materi
 Information about exams organization will be communicated by email.
 
 [Zoom1]: https://epfl.zoom.us/rec/share/wKUHvD1vNyczKpb2e161QCnqi3BtURL5D9zfVie3iXqXmrsIbJ2lrl4cCO_1FgSx.ZfvYlrRfSAFFdMcq?startTime=1614170578000
-[ZoomConcurrency1]: https://epfl.zoom.us/j/88341761709
+[ZoomConcurrency1]: https://epfl.zoom.us/rec/play/LzV8eccIFbEgHMi-DLJqynUus7chng8NYyR7XeA5Jjn_NGqkeAhIiTNsOLmIOp0XJHfjrNeB-XS6F5Fw.47WW7-mux-mqQZN8?startTime=1616586685000
 [ZoomConcurrency2]: https://epfl.zoom.us/j/88026736642
 [ZoomConcurrency3]: https://epfl.zoom.us/j/87636608499
