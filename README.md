@@ -106,6 +106,7 @@ Before each Discord session, students should watch videos corresponding to that 
 
 - Live lectures
   - Concurrency 1 ([Zoom Recording][ZoomConcurrency1]) ([YouTube version][YouTubeConcurrency1])
+  - Concurrency 2 ([Zoom Lecture][ZoomConcurrency2]): 31.03.21 from 14:15 to 16:00
 
 ### Actors 1
 
