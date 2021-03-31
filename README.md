@@ -106,7 +106,7 @@ Before each Discord session, students should watch videos corresponding to that 
 
 - Live lectures
   - Concurrency 1 ([Zoom Recording][ZoomConcurrency1]) ([YouTube version][YouTubeConcurrency1])
-  - Concurrency 2 ([Zoom Lecture][ZoomConcurrency2]): 31.03.21 from 14:15 to 16:00
+  - Concurrency 2 ([Zoom Recording][ZoomConcurrency2]) (YouTube version comming soon)
 
 ### Actors 1
 
@@ -190,6 +190,6 @@ Information about exams organization will be communicated by email.
 
 [Zoom1]: https://epfl.zoom.us/rec/share/wKUHvD1vNyczKpb2e161QCnqi3BtURL5D9zfVie3iXqXmrsIbJ2lrl4cCO_1FgSx.ZfvYlrRfSAFFdMcq?startTime=1614170578000
 [ZoomConcurrency1]: https://epfl.zoom.us/rec/play/LzV8eccIFbEgHMi-DLJqynUus7chng8NYyR7XeA5Jjn_NGqkeAhIiTNsOLmIOp0XJHfjrNeB-XS6F5Fw.47WW7-mux-mqQZN8?startTime=1616586685000
+[ZoomConcurrency2]: https://epfl.zoom.us/rec/play/nIeJO-yRcbqmjzIZWU4yU3gQC5h8rQlebVxbWSUEP426NvwgSsmis9lOOyV-m7SjVqFV9ML0vggMDg5N.01wR77_gQbSIUv8b?autoplay=true
 [YouTubeConcurrency1]: https://www.youtube.com/watch?v=5oUpSoUoII4
-[ZoomConcurrency2]: https://epfl.zoom.us/j/88026736642
 [ZoomConcurrency3]: https://epfl.zoom.us/j/87636608499
