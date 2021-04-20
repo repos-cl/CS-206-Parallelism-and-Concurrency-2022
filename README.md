@@ -107,6 +107,7 @@ Before each Discord session, students should watch videos corresponding to that 
 - Live lectures
   - Concurrency 1 ([Zoom Recording][ZoomConcurrency1]) ([YouTube version][YouTubeConcurrency1])
   - Concurrency 2 ([Zoom Recording][ZoomConcurrency2]) ([YouTube version][YouTubeConcurrency2])
+  - Concurrency 3 ([Zoom Live Lecture][ZoomConcurrency3])
 
 ### Actors 1
 
