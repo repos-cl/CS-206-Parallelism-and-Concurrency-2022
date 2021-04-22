@@ -107,7 +107,7 @@ Before each Discord session, students should watch videos corresponding to that 
 - Live lectures
   - Concurrency 1 ([Zoom Recording][ZoomConcurrency1]) ([YouTube version][YouTubeConcurrency1])
   - Concurrency 2 ([Zoom Recording][ZoomConcurrency2]) ([YouTube version][YouTubeConcurrency2])
-  - Concurrency 3 ([Zoom Live Lecture][ZoomConcurrency3])
+  - Concurrency 3 ([Zoom Recording][ZoomConcurrency3])
 
 ### Actors 1
 
@@ -194,4 +194,4 @@ Information about exams organization will be communicated by email.
 [ZoomConcurrency2]: https://epfl.zoom.us/rec/play/nIeJO-yRcbqmjzIZWU4yU3gQC5h8rQlebVxbWSUEP426NvwgSsmis9lOOyV-m7SjVqFV9ML0vggMDg5N.01wR77_gQbSIUv8b?autoplay=true
 [YouTubeConcurrency1]: https://www.youtube.com/watch?v=5oUpSoUoII4
 [YouTubeConcurrency2]: https://www.youtube.com/watch?v=Jvo-vrxaGnk
-[ZoomConcurrency3]: https://epfl.zoom.us/j/87636608499
+[ZoomConcurrency3]: https://epfl.zoom.us/rec/share/Y-CKNw08e88aeAhRhApCePes-1PWj97C6x6imLRM_X4kepGNjMjZimwDXCd4wGuk.hEUUleJEvt8MClDx?startTime=1619005278000
