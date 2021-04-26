@@ -57,7 +57,7 @@ In the first week of the semester, there will be a live Zoom session on Wednesda
 | 12   | 12.05.21 | Spark 1          | Prerecorded            | Exercise 6              | Lab 8              |
 | 13   | 19.05.21 | Spark 2          | Prerecorded            | Exercise 7              | Lab 8 & 9          |
 | 14   | 26.05.21 | Spark 3          | Prerecorded            | Exercise 8              | Lab 9              |
-| 15   | 02.06.21 | **Final Exam**   |                        |                         |                    |
+| 15   | 02.06.21 | **Review for Final Exam** |               |                         |                    |
 
 Solutions to the exercises are released after each deadline. We do not provide solutions for the labs.
 
@@ -185,7 +185,7 @@ Exercises will be given a participation grade at the end of the semester, which 
 
 The midterm exam will take place on 14.04.21. The midterm exam will cover all the material seen in the class up to week 6 (included).
 
-The final exam will take place on 02.06.21. The final exam will cover all material seen during the semester.
+~~The final exam will take place on 02.06.21.~~ The final exam for our course, parallelism and concurrency has been scheduled for Saturday July 10th from 8.15 to 11.15 in rooms SG1, AAC137, CO1 and CE6. The final exam will cover all material seen during the semester.
 
 Information about exams organization will be communicated by email.
 
