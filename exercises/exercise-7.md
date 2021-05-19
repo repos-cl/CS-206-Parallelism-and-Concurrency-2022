@@ -54,7 +54,7 @@ To optimize its revenue, WRC decided to do a proactive outreach to such clients 
 
 ### Part 1
 
-Compute an RDD of client's full names whose latest contract is older than 10 years old.
+Compute an RDD of client's full names whose oldest contract is older than 10 years old.
 
 ```scala
 val upsellClientNames: RDD[String] = ???
