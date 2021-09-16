@@ -14,7 +14,7 @@ Each lab is shipped with two sets of tests:
     content, to encourage you to write your own tests. You can run them from
     `sbt` using the following command:
     ```shell
-    grading:test
+    Grading/test
     ```
 
     Your grade is determined by the number of these tests that pass, see the
