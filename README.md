@@ -11,8 +11,8 @@ We will use GitLab's issue tracker as a discussion forum. Feel free to [open an 
 
 1. Join [the Discord](https://discord.gg/tgbPcCFSm2)
 1. Log into gitlab: https://gitlab.epfl.ch/users/sign_in
-1. Please fill in [this sheet](https://forms.gle/N6F3Q3jZm71AASby9) with your GASPAR and SCIPER number
-1. PLease fill in [this doodle](https://doodle.com/poll/yi2c33zkb8nre3ug) by picking the room in which you will do the exercises.
+1. Please fill in [this form](https://forms.gle/N6F3Q3jZm71AASby9) with your GASPAR and SCIPER number
+1. Please fill in [this doodle](https://doodle.com/poll/yi2c33zkb8nre3ug) by picking the room in which you will do the exercises.
 1. Follow the [Tools Setup](labs/tools-setup.md) page.
 1. Do the [example lab](labs/example-lab.md).
 1. Watch all videos under *Parallelism 1: Introduction to Parallel Programming* below
