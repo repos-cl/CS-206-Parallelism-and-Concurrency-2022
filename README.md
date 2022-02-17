@@ -42,7 +42,7 @@ You should watch the prerecorded lectures before doing the exercies.
 
 | Week | Date       | Topic            | Lectures (14:15-16:00) | Exercises (14:15-16:00) | Labs (16:15-18:00) |
 | :--  | :--        | :--              | :--                    | :--                     | :--                |
-| 1    | 2022.02.23 | Parallelism 1    | Prerecorded            | Welcome Zoom session    | Lab 1              |
+| 1    | 2022.02.23 | Parallelism 1    | Prerecorded            | Welcome session         | Lab 1              |
 
 
 Solutions to the exercises are released after each deadline. We do not provide solutions for the labs.
