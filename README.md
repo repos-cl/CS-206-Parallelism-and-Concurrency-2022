@@ -20,7 +20,7 @@ We will use GitLab's issue tracker as a discussion forum. Feel free to [open an 
 
 # Grading
 
-The grading of the course is divided between exercies (5%), labs (25%), midterm exam (30%) and final exam (40%).
+The grading of the course is divided between labs (30%), midterm exam (30%) and final exam (40%).
 
 # Staff
 
