@@ -12,6 +12,9 @@ stages:
   - build
   - grade
 
+variables:
+  OUTPUT_DIR: "-"
+
 compile:
   stage: build
   timeout: 15m
@@ -62,4 +65,4 @@ grade:
     - cp submission.jar /shared/submission/submission.jar
   script:
     - cd /grader
-    - /grader/grade --format=txt
+    - /grader/grade
