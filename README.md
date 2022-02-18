@@ -27,7 +27,7 @@ The grading of the course is divided between labs (30%), midterm exam (30%) and 
 | Role        | People |
 | :---        | :--- |
 | Professors  | [Martin Odersky](https://people.epfl.ch/martin.odersky), [Kashyap Sanidhya](https://people.epfl.ch/sanidhya.kashyap) |
-| TAs         | [Dragana Milovancevic](https://people.epfl.ch/dragana.milovancevic), [Guillaume Martres](https://people.epfl.ch/guillaume.martres),  [Matthieu Bovel](https://people.epfl.ch/matthieu.bovel), [Simon Guilloud](https://people.epfl.ch/simon.guilloud), [Tao Lyu](https://people.epfl.ch/tao.lyu), [Gupta Vishal](https://people.epfl.ch/vishal.gupta)|
+| TAs         | [Dragana Milovancevic](https://people.epfl.ch/dragana.milovancevic),  [Matthieu Bovel](https://people.epfl.ch/matthieu.bovel), [Simon Guilloud](https://people.epfl.ch/simon.guilloud), [Tao Lyu](https://people.epfl.ch/tao.lyu), [Gupta Vishal](https://people.epfl.ch/vishal.gupta)|
 | Student TAs | Mohamed Boukhari, Nicolas Matekalo, Tuomas Pääkkönen, Abel Wilkinson |
 
 # Course Schedule
