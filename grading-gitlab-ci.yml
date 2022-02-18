@@ -62,4 +62,4 @@ grade:
     - cp submission.jar /shared/submission/submission.jar
   script:
     - cd /grader
-    - /grader/grade | /grader/feedback-printer
+    - /grader/grade --format=txt
