@@ -66,4 +66,4 @@ grade:
   script:
     - cd /grader
     - /grader/grade
-    - grep -q /shared/feedback.json '"fractionalScore": 1.00'
+    - "grep -q /shared/feedback.json '\"fractionalScore\": 1.00'"
