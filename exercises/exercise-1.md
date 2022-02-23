@@ -1,13 +1,5 @@
 # Exercise 1
 
-Use the following commands to make a fresh clone of your repository:
-
-```
-git clone -b exercise-1 git@gitlab.epfl.ch:lamp/student-repositories-s21/cs206-GASPAR.git exercise-1
-```
-
-Update the README.md file with your solutions. Don't forget to list the group members' SCIPER numbers.
-
 # Problem 1: Introduction to Concurrency
 
 Freshly graduated from EPFL, you all have been hired as contractors for a successful and rapidly growing bank. The bank has recently been experiencing problems with their money management system, coded in Scala, and so they hired the best and brightest young engineers they could find: you! The system has been working perfectly fine so far, they tell you. In the past days, due to an increased number of customers, they had to switch from a single threaded sequential execution environment to a multithreaded concurrent environment, in which multiple threads may perform transactions concurrently. That's when problems started, your manager says…
