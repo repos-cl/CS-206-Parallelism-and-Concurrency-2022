@@ -10,7 +10,7 @@ ourselves.
 **On Windows, if your username has spaces or special characters in it, the IDE might not
 work properly. Please create a new user with a username containing only letters.**
 
-# Step 1: Create an account on gitlab.epfl.ch
+## Step 1: Create an account on gitlab.epfl.ch
 
 If you haven't already [log into gitlab](https://gitlab.epfl.ch/users/sign_in)
 and fill in [this form](https://forms.gle/N6F3Q3jZm71AASby9) with your GASPAR and SCIPER number to initialize your GitLab repository for the course. Do this as soon as possible because it will take some time between the account creation and the lab submission system working for your account.
