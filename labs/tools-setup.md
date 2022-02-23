@@ -13,17 +13,17 @@ work properly. Please create a new user with a username containing only letters.
 # Step 1: Create an account on gitlab.epfl.ch
 
 If you haven't already [log into gitlab](https://gitlab.epfl.ch/users/sign_in)
-and fill in [this table](https://docs.google.com/spreadsheets/d/1rcq_UMgR6bAH-iK1L2I6WoClZtCqUoIOLqQO3NJKdgg) with your GASPAR and SCIPER number to initialize your GitLab repository for the course. Do this as soon as possible because it will take some time between the account creation and the lab submission system working for your account.
+and fill in [this form](https://forms.gle/N6F3Q3jZm71AASby9) with your GASPAR and SCIPER number to initialize your GitLab repository for the course. Do this as soon as possible because it will take some time between the account creation and the lab submission system working for your account.
 
 ## Step 2: Installing the Java Development Kit (JDK) and sbt via coursier
 
 We will use coursier to install the correct version of
 Java as well as the sbt build tool:
 
-### On Linux
+### On Linux and macOS
 
 ```shell
-curl -fLo cs https://git.io/coursier-cli-linux
+curl -fLo cs https://git.io/coursier-cli-"$(uname | tr LD ld)"
 ```
 ```shell
 chmod +x cs
@@ -34,28 +34,11 @@ chmod +x cs
 
 Please reboot after this point.
 
-### On macOS
-
-First, install the Homebrew package manager:
-```shell
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-Use Homebrew to install coursier:
-```scala
-brew install coursier/formulas/coursier
-```
-```shell
-[ -f ~/.bash_profile ] && sudo chmod 0666 ~/.bash_profile
-```
-```shell
-cs setup -y --jvm 8 --apps sbt
-```
-
-Please close this terminal and open a new one after this point.
-
 ### On Windows
 
-Download and install the [Visual C++ 2010 SP1 Redistributable Package](https://www.microsoft.com/en-us/download/details.aspx?id=13523).
+Download and install both the [Visual C++ 2010 SP1 Redistributable
+Package](https://www.microsoft.com/en-us/download/details.aspx?id=26999) and [Visual C++ 2015 Redistributable Update](https://www.microsoft.com/en-us/download/details.aspx?id=52685) (click
+on "Download" then select "vcredist_x64.exe" and click "Next").
 
 Open `cmd.exe` (and not powershell)
 
@@ -111,6 +94,14 @@ sudo apt update && sudo apt install git
 
 ### On macOS
 
+First, install the Homebrew package manager if it is not already installed:
+
+```shell
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+Use Homebrew to install git:
+
 ```shell
 brew install git
 ```
@@ -136,9 +127,12 @@ See [https://code.visualstudio.com/docs/setup/linux](https://code.visualstudio.c
 
 ### On macOS
 
+If you don't already have Code installed:
 ```shell
 brew install --cask visual-studio-code
 ```
+If it was already installed before, you will need to [enable launching it from the
+command line](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line).
 
 ### On Windows
 
@@ -179,19 +173,13 @@ Follow the instructions under "Enable OpenSSH Client in Windows 10" on
 
 ### Step 8.2: Generating the key pair
 
-Open a **new** terminal and run:
+Please follow [this tutorial](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) to generate a new SSH key and add it to the ssh-agent (except the last step: you should instead add the key to Gitlab as described below). This [video](https://youtu.be/_RsP81Et12s?t=67) (from 1:07 to 4:05) might also help. 
 
-```shell
-ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
-```
-
-The command will then ask for a location, which you can leave as the default. It will then also ask for a passphrase to encrypt your private key, which you may leave empty. If you don't, make sure to remember your passphrase!
-
-### Adding your public key on Gitlab
+### Step 8.3: Adding your public key on Gitlab
 
 To be able to push your code, you'll need to add the public part of your key on Gitlab:
 - Go to [gitlab.epfl.ch](https://gitlab.epfl.ch), log in with your EPFL account
-- Go to [gitlab.epfl.ch/profile/keys](https://gitlab.epfl.ch/profile/keys) and copy-paste the content of the `id_rsa.pub` file created by the `ssh-keygen` command you just ran (when the command was ran it printed the location where this file was saved).
+- Go to [gitlab.epfl.ch/-/profile/keys](https://gitlab.epfl.ch/-/profile/keys) and copy-paste the content of the `id_rsa.pub` file created by the `ssh-keygen` command you just ran (`ssh-keygen` prints the location of the file to the console).
 - Press `Add key`
 
 ## Step 9: Follow the example lab

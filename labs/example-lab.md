@@ -17,8 +17,7 @@ git clone -b example git@gitlab.epfl.ch:lamp/student-repositories-s22/cs206-GASP
 ```
 
 **If this command fails, make sure you've [logged into
-gitlab](https://gitlab.epfl.ch/users/sign_in) and [registered in a
-group](https://gitlab.epfl.ch/lamp/cs206/-/blob/master/exercises/Group%20workspaces.md),
+gitlab](https://gitlab.epfl.ch/users/sign_in) and filled [this form](https://forms.gle/N6F3Q3jZm71AASby9),
 then wait a few minutes.
 If it still doesn't work it's likely that you didn't correctly upload your ssh
 key to gitlab, look at the last part of the [Tools Setup](tools-setup.md) page again.**
@@ -33,12 +32,12 @@ Now that we've obtained the project, let's take a look at its structure:
 .
 ├── build.sbt
 ├── project
-│   ├── ...
+│   ├── ...
 └── src
     ├── main
-    │   └── scala
-    │       └── example
-    │           └── Lists.scala
+    │   └── scala
+    │       └── example
+    │           └── Lists.scala
     └── test
         └── scala
             └── example

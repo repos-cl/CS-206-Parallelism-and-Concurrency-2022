@@ -11,7 +11,7 @@ code --force --install-extension scalameta.metals
 Use the following commands to make a fresh clone of your repository:
 
 ```
-git clone -b scalashop git@gitlab.epfl.ch:lamp/student-repositories-s21/cs206-GASPAR.git cs206-scalashop
+git clone -b scalashop git@gitlab.epfl.ch:lamp/student-repositories-s22/cs206-GASPAR.git cs206-scalashop
 ```
 
 ## Useful links

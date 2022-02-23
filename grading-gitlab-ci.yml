@@ -20,7 +20,7 @@ compile:
   timeout: 15m
   image: lampepfl2022/cs206:compile
   tags:
-    - cs210
+    - cs206
   except:
     - tags
     - master

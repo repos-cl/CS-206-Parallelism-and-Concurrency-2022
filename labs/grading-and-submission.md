@@ -78,7 +78,7 @@ example [VSCode has built-in git
 support](https://code.visualstudio.com/docs/editor/versioncontrol#_git-support).
 
 Once you've pushed your code, you can see the result online by going to
-`gitlab.epfl.ch/lamp/student-repositories-s21/cs206-GASPAR/pipelines` where
+`gitlab.epfl.ch/lamp/student-repositories-s22/cs206-GASPAR/pipelines` where
 `GASPAR` is your username (you can also access this page from the main page of
 your repository by clicking on the rocket icon on the left side of the gitlab
 interface, then clicking on "Pipelines").
