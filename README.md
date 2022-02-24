@@ -50,7 +50,7 @@ Solutions to the exercises are released after each deadline. We do not provide s
 Before each Exercise session, students should watch videos corresponding to that week's topic:
 
 ### Intro
-- Welcome session (CO1)
+- [Welcome session (CO1)](slides/CS206 Intro.pdf)
 
 ### Parallelism 1: Introduction to Parallel Programming
 
