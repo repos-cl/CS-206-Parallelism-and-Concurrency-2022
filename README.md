@@ -43,7 +43,9 @@ You should watch the prerecorded lectures before doing the exercies.
 | Week | Date       | Topic            | Lectures (14:15-16:00) | Exercises (14:15-16:00) | Labs (16:15-18:00) |
 | :--  | :--        | :--              | :--                    | :--                     | :--                |
 | 1    | 2022.02.23 | Parallelism 1    | Prerecorded            | Welcome session         | Lab 1              |
-
+| 2    | 2022.03.02 | Parallelism 2    | Prerecorded            | Exercise 1              | Lab 1 & 2          |
+| 3    | 2022.03.09 | Parallelism 3    | Prerecorded            | Exercise 2              | Lab 2 & 3          |
+| 4    | 2022.03.16 | Parallelism 4    | Prerecorded            | Exercise 3              | Lab 3 & 4          |
 
 Solutions to the exercises are released after each deadline. We do not provide solutions for the labs.
 
@@ -97,6 +99,9 @@ Labs are submitted by pushing your code on GitLab, see details in the [grading a
 | Labs  | Name                       | Start date  | Due date (23:59 [AoE](https://en.wikipedia.org/wiki/Anywhere_on_Earth)) |
 | :--   | :--                        | :--         | :--         |
 | Lab 1 | Parallel Box Blur Filter   | 2022.02.23  | 2022.03.06  |
+| Lab 2 | Reductions and Prefix Sums | 2022.03.02  | 2022.03.13  |
+| Lab 3 | K-Means                    | 2022.03.09  | 2022.03.20  |
+| Lab 4 | Barnes-Hut Simulation      | 2022.03.16  | 2022.03.27  |
 
 # Exercises
 
