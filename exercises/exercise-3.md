@@ -1,13 +1,5 @@
 # Exercise 3
 
-Use the following commands to make a fresh clone of your repository:
-
-```
-git clone -b exercise-3 git@gitlab.epfl.ch:lamp/student-repositories-s22/cs206-GASPAR.git exercise-3
-```
-
-Update the README.md file with your solutions. Don't forget to list the group members's SCIPER numbers.
-
 # Problem 1: Parallel Encoding
 
 In this exercise, your group will devise a parallel algorithm to encode sequences using the run-length encoding scheme. The encoding is very simple. It transforms sequences of letters such that all subsequences of the same letter are replaced by the letter and the sequence length. For instance:

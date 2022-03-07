@@ -1,13 +1,5 @@
 # Exercise 2
 
-Use the following commands to make a fresh clone of your repository:
-
-```
-git clone -b exercise-2 git@gitlab.epfl.ch:lamp/student-repositories-s22/cs206-GASPAR.git exercise-2
-```
-
-Update the README.md file with your solutions. Don't forget to list the group members's SCIPER numbers.
-
 # Problem 1: Aggregate
 
 In this week's lecture, you have been introduced to the aggregate method of `ParSeq[A]` (and other parallel data structures...). It has the following signature:
