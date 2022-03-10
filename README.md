@@ -5,7 +5,7 @@ This repository will be used as the website for Parallelism and Concurrency CS-2
 - [slides](slides) contains the slides presented in class.
 - [labs](labs) contains markdown documents for the labs.
 
-We will use GitLab's issue tracker as a discussion forum. Feel free to [open an issue](https://gitlab.epfl.ch/lamp/cs206/issues) if you have any comments or questions.
+We will use [piazza.com/epfl.ch/spring2022/cs206](Piazza) as discussion forum. Feel free to open a thread if you have any comments or questions.
 
 # First-week tasks
 
@@ -46,6 +46,8 @@ You should watch the prerecorded lectures before doing the exercies.
 | 2    | 2022.03.02 | Parallelism 2    | Prerecorded            | Exercise 1              | Lab 1 & 2          |
 | 3    | 2022.03.09 | Parallelism 3    | Prerecorded            | Exercise 2              | Lab 2 & 3          |
 | 4    | 2022.03.16 | Parallelism 4    | Prerecorded            | Exercise 3              | Lab 3 & 4          |
+| 5    | 2022.03.23 | Concurrency 1    | Live                   | None                    | Lab 4 & 5          |
+| 6    | 2022.03.30 | Concurrency 2    | Live                   | None                    | Lab 5 & 6          |
 
 Solutions to the exercises are released after each deadline. We do not provide solutions for the labs.
 
@@ -110,7 +112,7 @@ Exercises should be done in groups during the lecture.
 
 # Exams
 
-The midterm exam will take place on 2022.??.??. The midterm exam will cover all the material seen in the class up to week 6 (included).
+The midterm exam will take place on 2022.04.27. The midterm exam will cover all the material seen in the class up to that point.
 
 The final exam will take place on 2022.??.??. The final exam will cover all material seen during the semester.
 
