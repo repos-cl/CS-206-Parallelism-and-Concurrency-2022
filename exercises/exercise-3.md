@@ -1,8 +1,8 @@
-# Exercise 3
+# Exercise Session 3
 
 ## Problem 1: Parallel Encoding
 
-In this exercise, your group will devise a parallel algorithm to encode sequences using the run-length encoding scheme. The encoding is very simple. It transforms sequences of letters such that all subsequences of the same letter are replaced by the letter and the sequence length. For instance:
+In this exercise, your group will devise a parallel algorithm to encode sequences using the run-length encoding scheme. This encoding transforms sequences of letters such that all subsequences of the same letter are replaced by the letter and the sequence length. For instance:
 
 ```
 "AAAAATTTGGGGTCCCAAC"  ⇒  "A5T3G4T1C3A2C1"
@@ -35,7 +35,7 @@ Buffer.singleton[A](element: A): Buffer[A] // Single element buffer.
 In this exercise, you will implement an array Combiner using internally a double linked list (DLL). Below is a minimal implementation of the `DLLCombiner` class and the related `Node` class. Your goal for this exercise is to complete the implementation of the (simplified) Combiner interface of the `DLLCombiner` class.
 
 ```scala
-class DLLCombiner[A] extends Combiner[A, Array[A]] {
+class DLLCombiner[A] extends Combiner[A, Array[A]]:
   var head: Node[A] = null // null for empty lists.
   var last: Node[A] = null // null for empty lists.
   var size: Int = 0
@@ -44,12 +44,10 @@ class DLLCombiner[A] extends Combiner[A, Array[A]] {
   override def +=(elem: A): Unit = ???
   override def combine(that: DLLCombiner[A]): DLLCombiner[A] = ???
   override def result(): Array[A] = ???
-}
 
-class Node[A](val value: A) {
+class Node[A](val value: A):
   var next: Node[A]     // null for last node.
   var previous: Node[A] // null for first node.
-}
 ```
 
 **Question 1:** What computational complexity do your methods have? Are the actual complexities of your methods acceptable according to the `Combiner` requirements?
@@ -74,7 +72,7 @@ The pipeline `p` is itself a function. Given a value `x`, the pipeline `p` will 
 p(x) = (((x + 1)    Application of first function
             * 2)    Application of second function
             + 3)    Application of third function
-            / 4   Application of fourth function
+            / 4     Application of fourth function
 ```
 
 In this exercise, we will investigate the possibility to process such pipelines in parallel.
@@ -94,15 +92,13 @@ Discuss those questions with your group and try to get a good understanding of w
 **Question 3:** Instead of arbitrary functions, we will now consider functions that are constant everywhere except on a finite domain. We represent such functions in the following way:
 
 ```scala
-class FiniteFun[A](mappings: immutable.Map[A, A], default: A) {
+class FiniteFun[A](mappings: immutable.Map[A, A], default: A):
   def apply(x: A): A =
-    mappings.get(x) match {
+    mappings.get(x) match
       case Some(y) => y
       case None    => default
-    }
 
   def andThen(that: FiniteFun[A]): FiniteFun[A] = ???
-}
 ```
 
 Implement the andThen method. Can pipelines of such finite functions be efficiently constructed in parallel using the appropriately modified `toPipeline` method? Can the resulting pipelines be efficiently executed?
@@ -110,20 +106,18 @@ Implement the andThen method. Can pipelines of such finite functions be efficien
 **Question 4:** Compare the *work* and *depth* of the following two functions, assuming infinite parallelism. For which kind of input would the parallel version be asymptotically faster?
 
 ```scala
-def applyAllSeq[A](x: A, fs: Seq[FiniteFun[A]]): A = {
+def applyAllSeq[A](x: A, fs: Seq[FiniteFun[A]]): A =
   // Applying each function sequentially.
   var y = x
-  for (f <- fs)
+  for f <- fs do
     y = f(y)
   y
-}
 
 def applyAllPar[A](x: A, fs: ParSeq[FiniteFun[A]]): A =
-  if (fs.isEmpty) x
-  else {
+  if fs.isEmpty then x
+  else
     // Computing the composition in parallel.
     val p = fs.reduce(_ andThen _)
     // Applying the pipeline.
     p(x)
-  }
 ```
