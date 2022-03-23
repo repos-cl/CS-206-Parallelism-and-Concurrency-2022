@@ -104,6 +104,7 @@ Labs are submitted by pushing your code on GitLab, see details in the [grading a
 | Lab 2 | Reductions and Prefix Sums | 2022.03.02  | 2022.03.13  |
 | Lab 3 | K-Means                    | 2022.03.09  | 2022.03.20  |
 | Lab 4 | Barnes-Hut Simulation      | 2022.03.16  | 2022.03.27  |
+| Lab 4 | Concurrent Bounded Buffer  | 2022.03.23  | 2022.04.03  |
 
 # Exercises
 
@@ -114,7 +115,7 @@ Exercises should be done in groups during the lecture.
 
 The midterm exam will take place on 2022.04.27. The midterm exam will cover all the material seen in the class up to that point.
 
-The final exam will take place on 2022.??.??. The final exam will cover all material seen during the semester.
+The final exam will take place on 2022.06.01. The final exam will cover all material seen during the semester.
 
 Information about exams organization will be communicated by email.
 
