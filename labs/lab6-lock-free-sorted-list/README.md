@@ -88,11 +88,11 @@ class SortedList extends AbstractSortedList:
   def delete(e: Int): Boolean = ???
 ```
 
-The value `_head` of the list is called a [*sentinel* node](https://en.wikipedia.org/wiki/Sentinel_node). This value is simply `Node` that will serve only as a reference to the first actual node of the list. The value (viz. zero) held by this special node should be completely ignored. This technique is useful because it limits the duplication of code. An alternative is to have a reference to the first node using an `AtomicVariable`. But this would force us to handle the first node differently from the rest. So will use a sentinel node for this assignment.
+The value `_head` of the list is called a [*sentinel* node](https://en.wikipedia.org/wiki/Sentinel_node). This value is simply a `Node` that will serve only as a reference to the first actual node of the list. The value (viz. zero) held by this special node should be completely ignored. This technique is useful because it limits the duplication of code. An alternative would be to have a reference to the first node using an `AtomicVariable`. But this would force us to handle the first node differently from the rest. So we will use a sentinel node for this assignment.
 
 ### `findNodeWithPrev`
 
-The first method you will implement is an internal helper method which will be used all other methods.
+The first method you will implement is an internal helper method which will be used by all other methods.
 This method should do a traversal of the list to find the first node whose value satisfies the parameter predicate.
 The method should return the following two values as a pair:
 - the predecessor of the node,
@@ -105,9 +105,9 @@ When the predicate doesn't hold on any of the values, then the function should r
 
 ### `insert`
 
-Your first goal will be to code the insert method of the lock-free list. The idea is very simple:
+Your first goal will be to code the insert method of the lock-free list. The idea is to:
 
-1. Locate the position you need to insert by using the `findNodeWithPrev` method you have just implemented.
+1. Locate the position where you need to insert by using the `findNodeWithPrev` method you have just implemented.
 2. Create a new node that holds the value and points to the correct next node. For this, you should use `createNode(value, nextNode)`.
 3. Use the `compareAndSet` operation to make the previous node point to your newly created node.
 4. If the operation failed, retry from the start! Otherwise, the operation is done!
@@ -132,10 +132,14 @@ As an example, assume that the list currently contains the values `10` and `30`.
 - Imagine one thread starts executing the insertion of `20` in the list and correctly locates where to insert the new node (between `10` and `30`). The thread then creates a node with value `20` and makes it point to the node with value `30`.
 
   ![Step 1](step1.png "Right in the middle of inserting 20")
+
 - Now, some other thread is scheduled and starts executing the deletion of the node with value `10`. The thread finds the two nodes that surround it, that is the sentinel node at the head of the list and the node with value `30` (note that the insertion of `20` by the other thread isn't visible yet!). The thread, using compare and set, changes the next pointer of the sentinel node to the node with value `30`. The `delete` operation then terminates successfully.
 
   ![Step 2](step2.png "After the deletion of 10")
-- Now, the first thread resumes its execution. Its next instruction is to use compare and set to change the next pointer of the node with value `10`, which it can do without any problem! Indeed, this atomic variable wasn't touched by the delete operation. The `insert` operation looks successful, even though the node that was inserted is not reachable from the head of the list! The operation was lost... ![Step 3](step3.png "Final configuration")
+
+- Now, the first thread resumes its execution. Its next instruction is to use compare and set to change the next pointer of the node with value `10`, which it can do without any problem! Indeed, this atomic variable wasn't touched by the delete operation. The `insert` operation looks successful, even though the node that was inserted is not reachable from the head of the list! The operation was lost...
+
+  ![Step 3](step3.png "Final configuration")
 
 One solution to this problem, as proposed by Timothy L. Harris in his paper [A Pragmatic Implementation of Non-Blocking Linked Lists](https://www.cl.cam.ac.uk/research/srg/netos/papers/2001-caslists.pdf), is to somehow record in the node that it was deleted.
 We will proceed similarly in this assignment.
