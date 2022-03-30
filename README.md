@@ -105,6 +105,7 @@ Labs are submitted by pushing your code on GitLab, see details in the [grading a
 | Lab 3 | K-Means                    | 2022.03.09  | 2022.03.20  |
 | Lab 4 | Barnes-Hut Simulation      | 2022.03.16  | 2022.03.27  |
 | Lab 5 | Concurrent Bounded Buffer  | 2022.03.23  | 2022.04.03  |
+| Lab 6 | Lock-free sorted list      | 2022.03.30  | 2022.04.10  |
 
 # Exercises
 
