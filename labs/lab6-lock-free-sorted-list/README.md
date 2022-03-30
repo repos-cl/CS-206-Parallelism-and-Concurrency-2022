@@ -127,6 +127,7 @@ Unfortunately, this solution is not entirely satisfactory!
 Indeed, there exist schedules in which some successful operations are lost. Can you think of any?
 
 As an example, assume that the list currently contains the values `10` and `30`.
+
 ![Step 0](step0.png "Initial configuration")
 
 - Imagine one thread starts executing the insertion of `20` in the list and correctly locates where to insert the new node (between `10` and `30`). The thread then creates a node with value `20` and makes it point to the node with value `30`.
