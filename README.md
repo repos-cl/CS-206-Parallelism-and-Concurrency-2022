@@ -48,6 +48,7 @@ You should watch the prerecorded lectures before doing the exercies.
 | 4    | 2022.03.16 | Parallelism 4    | Prerecorded            | Exercise 3              | Lab 3 & 4          |
 | 5    | 2022.03.23 | Concurrency 1    | Live                   | None                    | Lab 4 & 5          |
 | 6    | 2022.03.30 | Concurrency 2    | Live                   | None                    | Lab 5 & 6          |
+| 7    | 2022.04.06 | Concurrency 3    | Live                   | None                    | Lab 6              |
 
 Solutions to the exercises are released after each deadline. We do not provide solutions for the labs.
 
