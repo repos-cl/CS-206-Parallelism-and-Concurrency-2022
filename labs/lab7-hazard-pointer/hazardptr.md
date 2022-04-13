@@ -4,6 +4,12 @@ The goal of this assignment is to implement a concurrent list that stores values
 
 The goal will be to have a data structure that can safely allow readers to do the traversal even if writer has deleted the node. Hazard pointers will be used to achieve that.
 
+Use the following commands to make a fresh clone of your repository:
+
+```
+git clone -b hazardptr git@gitlab.epfl.ch:lamp/student-repositories-s22/cs206-GASPAR.git cs206-hazardptr
+```
+
 ## Hazard Pointer (https://ieeexplore.ieee.org/document/1291819)
 
 Hazard Pointer is a garbage collection technique which allows concurrent access to an object in a thread even when it might be deleted by other threads. For example, thread A might be deleting a node and at the same time another thread B can have access to that same node. If thread A frees the memory, then thread B will crash because it is trying to access invalid address. 
