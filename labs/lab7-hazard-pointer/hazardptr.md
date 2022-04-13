@@ -23,7 +23,7 @@ abstract class AbstractHazardPointer(numPointerPerThread: Int) extends Monitor:
 
   val hazardPointerArray: ArrayBuffer[Option[Node]] = ArrayBuffer.fill(numPointerPerThread * maxThreads)(None)
 
-  val retiredListArray: ArrayBuffer[ArrayBuffer[Node]] = ArrayBuffer.fill(maxThreads)(ArrayBuffer())
+  val retiredListArray: ArrayBuffer[ArrayBuffer[Option[Node]]] = ArrayBuffer.fill(maxThreads)(ArrayBuffer())
 
   // This function will be overridden when running in parallel.
   def getMyId(): Int = 0
@@ -34,7 +34,7 @@ abstract class AbstractHazardPointer(numPointerPerThread: Int) extends Monitor:
   // Return ith per-thread hazard pointer ( 0 <= i <= numPointerPerThread )
   def get(i: Int): Option[Node]
 
-  def retireNode(node: Node) : Unit
+  def retireNode(node: Option[Node]) : Unit
 ```
 
 hazardPointerArray is an Array of hazard pointers. This array will store per-thread hazard pointers. You can use `get` / `update` functions to read/write per-thread hazard pointers.
@@ -44,7 +44,7 @@ You have to implement the retireNode function in the hazardPointer class.
 ```scala
 class HazardPointer(numPointerPerThread: Int) extends AbstractHazardPointer(numPointerPerThread):
 
-  def retireNode(node: Node) = ???
+  def retireNode(node: Option[Node]) = ???
 ```
 ### `retireNode`
 
