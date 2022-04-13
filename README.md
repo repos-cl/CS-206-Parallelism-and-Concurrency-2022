@@ -49,6 +49,10 @@ You should watch the prerecorded lectures before doing the exercies.
 | 5    | 2022.03.23 | Concurrency 1    | Live                   | None                    | Lab 4 & 5          |
 | 6    | 2022.03.30 | Concurrency 2    | Live                   | None                    | Lab 5 & 6          |
 | 7    | 2022.04.06 | Concurrency 3    | Live                   | None                    | Lab 6              |
+| 8    | 2022.04.13 | Concurrency 4    | Live                   | None                    | Lab 6 & 7          |
+| 9    | 2022.04.20 | Easter Break     | None                   | None                    | None               |
+| 10   | 2022.04.27 | Midterm Exam     | Midterm Exam           | None                    | Lab 7              |
+
 
 Solutions to the exercises are released after each deadline. We do not provide solutions for the labs.
 
@@ -107,6 +111,7 @@ Labs are submitted by pushing your code on GitLab, see details in the [grading a
 | Lab 4 | Barnes-Hut Simulation      | 2022.03.16  | 2022.03.27  |
 | Lab 5 | Concurrent Bounded Buffer  | 2022.03.23  | 2022.04.03  |
 | Lab 6 | Lock-free sorted list      | 2022.03.30  | 2022.04.10  |
+| Lab 7 | Hazard Pointer             | 2022.04.13  | 2022.05.01  |
 
 # Exercises
 
