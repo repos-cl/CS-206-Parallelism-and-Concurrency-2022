@@ -1,0 +1,22 @@
+# General
+*.DS_Store
+*.swp
+*~
+
+# Dotty
+*.class
+*.tasty
+*.hasTasty
+
+# sbt
+target/
+
+# IDE
+.bsp
+.bloop
+.metals
+.vscode
+
+# datasets
+stackoverflow-grading.csv
+wikipedia-grading.dat
