@@ -43,15 +43,18 @@ You should watch the prerecorded lectures before doing the exercies.
 | Week | Date       | Topic            | Lectures (14:15-16:00) | Exercises (14:15-16:00) | Labs (16:15-18:00) |
 | :--  | :--        | :--              | :--                    | :--                     | :--                |
 | 1    | 2022.02.23 | Parallelism 1    | Prerecorded            | Welcome session         | Lab 1              |
-| 2    | 2022.03.02 | Parallelism 2    | Prerecorded            | Exercise 1              | Lab 1 & 2          |
-| 3    | 2022.03.09 | Parallelism 3    | Prerecorded            | Exercise 2              | Lab 2 & 3          |
-| 4    | 2022.03.16 | Parallelism 4    | Prerecorded            | Exercise 3              | Lab 3 & 4          |
+| 2    | 2022.03.02 | Parallelism 2    | Prerecorded            | Exercises 1             | Lab 1 & 2          |
+| 3    | 2022.03.09 | Parallelism 3    | Prerecorded            | Exercises 2             | Lab 2 & 3          |
+| 4    | 2022.03.16 | Parallelism 4    | Prerecorded            | Exercises 3             | Lab 3 & 4          |
 | 5    | 2022.03.23 | Concurrency 1    | Live                   | None                    | Lab 4 & 5          |
 | 6    | 2022.03.30 | Concurrency 2    | Live                   | None                    | Lab 5 & 6          |
 | 7    | 2022.04.06 | Concurrency 3    | Live                   | None                    | Lab 6              |
 | 8    | 2022.04.13 | Concurrency 4    | Live                   | None                    | Lab 6 & 7          |
 | 9    | 2022.04.20 | Easter Break     | None                   | None                    | None               |
 | 10   | 2022.04.27 | Midterm Exam     | Midterm Exam           | None                    | Lab 7              |
+| 11   | 2022.05.04 | Futures          | Live in CO1            | None                    | Midterm review     |
+| 12   | 2022.05.11 | Actors           | Prerecorded            | Exercises 4             | Lab 8              |
+| 12   | 2022.05.18 | Actors           | Prerecorded            | Exercises 5             | Lab 9              |
 
 
 Solutions to the exercises are released after each deadline. We do not provide solutions for the labs.
@@ -112,6 +115,7 @@ Labs are submitted by pushing your code on GitLab, see details in the [grading a
 | Lab 5 | Concurrent Bounded Buffer  | 2022.03.23  | 2022.04.03  |
 | Lab 6 | Lock-free sorted list      | 2022.03.30  | 2022.04.17  |
 | Lab 7 | Hazard Pointer             | 2022.04.13  | 2022.05.01  |
+| Lab 8 | Actors Binary Tree         | 2022.05.11  | 2022.05.23  |
 
 # Exercises
 
