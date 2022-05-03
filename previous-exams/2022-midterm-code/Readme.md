@@ -19,13 +19,13 @@ sbt test
 or to run a specific suite:
 
 ```
-sbt testOnly midterm.Part1Test
+sbt "testOnly midterm.Part1Test"
 ```
 
 ## Run a main function
 
 ```
-sbt runMain midterm.part1
+sbt "runMain midterm.part3"
 ```
 
 ## Format
@@ -37,5 +37,5 @@ sbt scalafmt
 ## Benchmark
 
 ```
-sbt jmh:run -bm ss -i 40 -wi 5 -rf JSON -rff CollectionsBenchmarkResults.json bench.CollectionBenchmark
+sbt "jmh:run -bm ss -i 40 -wi 5 -rf JSON -rff CollectionsBenchmarkResults.json bench.CollectionBenchmark"
 ```
