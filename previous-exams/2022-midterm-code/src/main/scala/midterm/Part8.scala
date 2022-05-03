@@ -7,7 +7,7 @@ import scala.annotation.tailrec
 // Question 25
 
 // See tests in midterm.Part8Test.
-// Run with `sbt testOnly midterm.Part8Test`.
+// Run with `sbt "testOnly midterm.Part8Test"`.
 
 // Represent a social network where user can follow each other. Each user is
 // represented by an id that is an `Int`.

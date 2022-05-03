@@ -2,7 +2,7 @@ package midterm
 
 // Question 8
 
-// Run with `sbt runMain midterm.part3`
+// Run with `sbt "runMain midterm.part3"`
 
 @main def part3() =
   def thread(b: => Unit) =

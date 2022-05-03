@@ -3,7 +3,7 @@ package midterm
 // Questions 4-7
 
 // See tests in midterm.Part2Test.
-// Run with `sbt testOnly midterm.Part2Test`.
+// Run with `sbt "testOnly midterm.Part2Test"`.
 
 /*
 Answers to the exam questions:

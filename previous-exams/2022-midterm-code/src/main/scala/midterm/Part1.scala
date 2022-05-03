@@ -6,7 +6,7 @@ import scala.collection.parallel.CollectionConverters.*
 // Questions 1-3
 
 // See tests in midterm.Part1Test.
-// Run with `sbt testOnly midterm.Part1Test`.
+// Run with `sbt "testOnly midterm.Part1Test"`.
 
 def parallel3[A, B, C](op1: => A, op2: => B, op3: => C): (A, B, C) =
   val res1 = task { op1 }

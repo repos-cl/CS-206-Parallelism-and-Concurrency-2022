@@ -5,7 +5,7 @@ import midterm.instrumentation.Monitor
 // Question 21
 
 // See tests in midterm.Part6Test.
-// Run with `sbt testOnly midterm.Part6Test`.
+// Run with `sbt "testOnly midterm.Part6Test"`.
 
 class TicketsManager(totalTickets: Int) extends Monitor:
   var remainingTickets = totalTickets

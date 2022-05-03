@@ -5,7 +5,7 @@ import midterm.instrumentation.Monitor
 // Questions 22-24
 
 // See tests in midterm.Part7Test.
-// Run with `sbt testOnly midterm.Part7Test`.
+// Run with `sbt "testOnly midterm.Part7Test"`.
 
 class NIC(private val _index: Int, private var _assigned: Boolean)
     extends Monitor:

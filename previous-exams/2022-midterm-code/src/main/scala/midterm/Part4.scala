@@ -6,7 +6,7 @@ import instrumentation.*
 // Questions 9-15
 
 // See tests in midterm.Part4Test.
-// Run with `sbt testOnly midterm.Part4Test`.
+// Run with `sbt "testOnly midterm.Part4Test"`.
 
 class Node(
     // Globally unique identifier. Different for each instance.
