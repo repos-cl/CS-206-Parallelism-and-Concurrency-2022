@@ -1,0 +1,33 @@
+[info] Benchmark                 (collection)    (size)  Mode  Cnt   Score    Error  Units
+[info] CollectionBenchmark.drop        Vector     10000    ss  200  ≈ 10⁻⁵            s/op
+[info] CollectionBenchmark.drop        Vector    100000    ss  200  ≈ 10⁻⁵            s/op
+[info] CollectionBenchmark.drop        Vector   1000000    ss  200  ≈ 10⁻⁵            s/op
+[info] CollectionBenchmark.drop        Vector  10000000    ss  200  ≈ 10⁻⁵            s/op
+[info] CollectionBenchmark.drop         Array     10000    ss  200  ≈ 10⁻⁴            s/op
+[info] CollectionBenchmark.drop         Array    100000    ss  200  ≈ 10⁻⁴            s/op
+[info] CollectionBenchmark.drop         Array   1000000    ss  200   0.003 ±  0.001   s/op
+[info] CollectionBenchmark.drop         Array  10000000    ss  200   0.019 ±  0.002   s/op
+[info] CollectionBenchmark.drop   ArrayBuffer     10000    ss  200  ≈ 10⁻⁴            s/op
+[info] CollectionBenchmark.drop   ArrayBuffer    100000    ss  200  ≈ 10⁻⁴            s/op
+[info] CollectionBenchmark.drop   ArrayBuffer   1000000    ss  200   0.002 ±  0.001   s/op
+[info] CollectionBenchmark.drop   ArrayBuffer  10000000    ss  200   0.017 ±  0.007   s/op
+[info] CollectionBenchmark.drop          List     10000    ss  200  ≈ 10⁻⁴            s/op
+[info] CollectionBenchmark.drop          List    100000    ss  200  ≈ 10⁻⁴            s/op
+[info] CollectionBenchmark.drop          List   1000000    ss  200   0.002 ±  0.001   s/op
+[info] CollectionBenchmark.drop          List  10000000    ss  200   0.024 ±  0.001   s/op
+[info] CollectionBenchmark.take        Vector     10000    ss  200  ≈ 10⁻⁵            s/op
+[info] CollectionBenchmark.take        Vector    100000    ss  200  ≈ 10⁻⁵            s/op
+[info] CollectionBenchmark.take        Vector   1000000    ss  200  ≈ 10⁻⁵            s/op
+[info] CollectionBenchmark.take        Vector  10000000    ss  200  ≈ 10⁻⁵            s/op
+[info] CollectionBenchmark.take         Array     10000    ss  200  ≈ 10⁻⁴            s/op
+[info] CollectionBenchmark.take         Array    100000    ss  200  ≈ 10⁻⁴            s/op
+[info] CollectionBenchmark.take         Array   1000000    ss  200   0.003 ±  0.001   s/op
+[info] CollectionBenchmark.take         Array  10000000    ss  200   0.018 ±  0.002   s/op
+[info] CollectionBenchmark.take   ArrayBuffer     10000    ss  200  ≈ 10⁻⁴            s/op
+[info] CollectionBenchmark.take   ArrayBuffer    100000    ss  200  ≈ 10⁻⁴            s/op
+[info] CollectionBenchmark.take   ArrayBuffer   1000000    ss  200   0.003 ±  0.001   s/op
+[info] CollectionBenchmark.take   ArrayBuffer  10000000    ss  200   0.019 ±  0.007   s/op
+[info] CollectionBenchmark.take          List     10000    ss  200  ≈ 10⁻⁴            s/op
+[info] CollectionBenchmark.take          List    100000    ss  200   0.001 ±  0.001   s/op
+[info] CollectionBenchmark.take          List   1000000    ss  200   0.004 ±  0.003   s/op
+[info] CollectionBenchmark.take          List  10000000    ss  200   0.460 ±  0.237   s/op
