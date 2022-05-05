@@ -50,11 +50,12 @@ You should watch the prerecorded lectures before doing the exercies.
 | 6    | 2022.03.30 | Concurrency 2    | Live                   | None                    | Lab 5 & 6          |
 | 7    | 2022.04.06 | Concurrency 3    | Live                   | None                    | Lab 6              |
 | 8    | 2022.04.13 | Concurrency 4    | Live                   | None                    | Lab 6 & 7          |
-| 9    | 2022.04.20 | Easter Break     | None                   | None                    | None               |
-| 10   | 2022.04.27 | Midterm Exam     | Midterm Exam           | None                    | Lab 7              |
-| 11   | 2022.05.04 | Futures          | Live in CO1            | None                    | Midterm review     |
-| 12   | 2022.05.11 | Actors           | Prerecorded            | Exercises 4             | Lab 8              |
-| 12   | 2022.05.18 | Actors           | Prerecorded            | Exercises 5             | Lab 9              |
+| -    | 2022.04.20 | Easter Break     | None                   | None                    | None               |
+| 9    | 2022.04.27 | Midterm Exam     | Midterm Exam           | None                    | Lab 7              |
+| 10   | 2022.05.04 | Futures          | Live in CO1            | None                    | Midterm review     |
+| 11   | 2022.05.11 | Actors 1         | Prerecorded            | Exercises 4             | Lab 8              |
+| 12   | 2022.05.18 | Actors 2         | Prerecorded            | Exercises 5             | Lab 9              |
+| 13   | 2022.05.25 | Actors 3         | Prerecorded            | Q&A                     | Final dry run      |
 
 
 Solutions to the exercises are released after each deadline. We do not provide solutions for the labs.
@@ -102,6 +103,31 @@ Before each Exercise session, students should watch videos corresponding to that
 
 ### Futures
  - [Lecture from 2020](https://www.youtube.com/watch?v=XznYvMjA-7s&t=2499s)
+
+### Actors 1: The Actor Model
+
+- [Introduction: why actors?](https://www.youtube.com/watch?v=ZQAe9AItH8o)
+- [The Actor Model](https://www.youtube.com/watch?v=c49tDZuFtPA)
+- [Message Processing Semantics](https://www.youtube.com/watch?v=Uxn1eg6R0Fc)
+- [Designing Actor Systems](https://www.youtube.com/watch?v=uxeMJLo3h9k)
+- [Testing Actor Systems](https://www.youtube.com/watch?v=T_2nwLr-H2s)
+
+### Actors 2: Handling Failure and State
+
+- [Failure Handling With Actors](https://www.youtube.com/watch?v=tgQuuKUQKxE)
+- [Lifecycle Monitoring and The Error Kernel](https://www.youtube.com/watch?v=GYy6mmGXR5E)
+- [Persistent Actor State](https://www.youtube.com/watch?v=c-BdLeNxkYk)
+
+### Actors 3: Distributed Computing
+
+- [Actors Are Distributed (part 1)](https://www.youtube.com/watch?v=xQx01VDn-jk)
+- [Actors Are Distributed (part 2)](https://www.youtube.com/watch?v=LunpgPsYjzQ)
+- [Eventual Consistency](https://www.youtube.com/watch?v=Immhr4FKssM)
+- [Actor Composition](https://www.youtube.com/watch?v=Ean2-1O9aBs)
+- [Scalability](https://www.youtube.com/watch?v=JkcTGRYoZ_A)
+- [Responsiveness](https://www.youtube.com/watch?v=KvP-8yrgOr4)
+
+
 
 # Labs
 
