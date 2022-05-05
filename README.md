@@ -100,6 +100,8 @@ Before each Exercise session, students should watch videos corresponding to that
 - [Amortized, Constant-Time Append Operation](https://www.youtube.com/watch?v=Ic5DUZLITVI)
 - [Conc-Tree Combiners](https://www.youtube.com/watch?v=aLfFlCC1vjc)
 
+### Futures
+ - [Lecture from 2020](https://www.youtube.com/watch?v=XznYvMjA-7s&t=2499s)
 
 # Labs
 
