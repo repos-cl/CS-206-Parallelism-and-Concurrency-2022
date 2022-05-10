@@ -13,8 +13,6 @@ First of all, spend some time as a group to make sure that you understand what t
 ```scala
 extension [T](self: MyFuture[T])
   def map[S](f: T => S): MyFuture[S] = ???
-
-extension [T](self: MyFuture[T])
   def filter(p: T => Boolean): MyFuture[T] = ???
 ```
 
