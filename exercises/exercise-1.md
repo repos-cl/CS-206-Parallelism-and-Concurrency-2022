@@ -1,4 +1,4 @@
-# Exercise 1
+# Exercise Session 1
 
 # Problem 1: Introduction to Concurrency
 

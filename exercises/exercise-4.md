@@ -1,4 +1,5 @@
-# Exercise 4
+# Exercise Session 4
+
 ## Problem 1: Implementing `map` and `filter` on Futures
 
 In this exercise, you will come up with an implementation of the `map` and `filter` methods of `MyFuture`. The `MyFuture` trait is a simplified version of the `Future` trait from the Scala standard library, with a single abstract method:

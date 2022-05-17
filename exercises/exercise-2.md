@@ -1,4 +1,4 @@
-# Exercise 2
+# Exercise Session 2
 
 # Problem 1: Aggregate
 
