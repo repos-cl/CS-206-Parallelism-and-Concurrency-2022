@@ -44,8 +44,8 @@ And the following test:
     try
       val memory = system.actorOf(Props(Memory()))
       val client = system.actorOf(Props(Client(memory)))
-      memory ! Write(1)
       memory ! Read(client)
+      memory ! Write(1)
     finally system.terminate()
 ```
 
