@@ -69,5 +69,5 @@ Now, consider the following test:
 ```
 
 1. What are the possible values printed by the `println` command in the `Client2` actor? Why?
-2. Would the output be different if the commands annotated with `XXX` were issued in the other order?
+2. Would the output be different if the `Read` and `Write` messages were issued in the other order?
 3. What if both messages are sent through the `Proxy` actor?
