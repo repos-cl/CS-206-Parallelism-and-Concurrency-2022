@@ -144,6 +144,7 @@ Labs are submitted by pushing your code on GitLab, see details in the [grading a
 | Lab 6 | Lock-free sorted list      | 2022.03.30  | 2022.04.17  |
 | Lab 7 | Hazard Pointer             | 2022.04.13  | 2022.05.01  |
 | Lab 8 | Actors Binary Tree         | 2022.05.11  | 2022.05.23  |
+| Lab 9 | Key-Value Store            | 2022.05.18  | 2022.06.03  |
 
 # Exercises
 
