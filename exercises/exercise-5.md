@@ -14,7 +14,6 @@ enum Responses:
   case Answer(value: Int)
 import Responses.*
 
-
 class Memory extends Actor:
   var value = 0
 
