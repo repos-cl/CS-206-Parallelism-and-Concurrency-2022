@@ -25,13 +25,13 @@ In this exercise, your task is to implement a leaderboard webpage for a GitLab-b
 This exercise uses the Play framework, a popular web application framework.
 Play is entirely asynchronous and uses futures for concurrency.
 
-In `src/main/scala/f1/MyComponents.scala`, we define a minimal Play application to display the leaderboard (you do not need to modify this file).
+In `src/main/scala/concpar21final01/MyComponents.scala`, we define a minimal Play application to display the leaderboard (you do not need to modify this file).
 
 You can start this application using `sbt run` and open the leaderboard in a web browser at [http://localhost:9000/](http://localhost:9000/). After having completed this exercise, you should see a populated leaderboard as shown in this screenshot:
 
 ![leaderboard.png](leaderboard.png "leaderboard.png")
 
-In this exercise, your task is to implement the `leaderboard()` method in `src/main/scala/f1/F1.scala` which asynchronously retrieves and sorts student grades.
+In this exercise, your task is to implement the `leaderboard()` method in `src/main/scala/concpar21final01/Problem1.scala` which asynchronously retrieves and sorts student grades.
 Grades should be sorted such that maximum grades appear at the head of the list, like in the screenshot above.
 Your implementation should use the following two methods to get the list of students and the grade of a particular student:
 
