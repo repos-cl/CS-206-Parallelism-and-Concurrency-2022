@@ -17,47 +17,31 @@ variables:
 
 compile:
   stage: build
-  timeout: 15m
-  image: lampepfl2022/cs206:compile
+  timeout: 10m
+  image: ${DOCKER_REPO}/compile
   tags:
-    - cs206
+    - cs210
   except:
     - tags
     - master
-    - exercise-1
-    - exercise-2
-    - exercise-3
-    - exercise-4
-    - exercise-5
-    - exercise-6
-    - exercise-7
-    - exercise-8
   script:
     - sbt packageSubmission
   # Output of this job that needs to be stored to be reused in the grade job below
   artifacts:
-    expire_in: 1 day
+    expire_in: 20m
     paths:
       - submission.jar
 
 grade:
   stage: grade
-  timeout: 15m
+  timeout: 10m
   except:
     - tags
     - master
-    - exercise-1
-    - exercise-2
-    - exercise-3
-    - exercise-4
-    - exercise-5
-    - exercise-6
-    - exercise-7
-    - exercise-8
   tags:
     - cs210
   image:
-    name: lampepfl2022/cs206:grader-${CI_COMMIT_BRANCH}
+    name: ${DOCKER_REPO}/grader-${CI_COMMIT_BRANCH}
     entrypoint: [""]
   allow_failure: true
   before_script:
@@ -65,4 +49,4 @@ grade:
     - cp submission.jar /shared/submission/submission.jar
   script:
     - cd /grader
-    - /grader/grade
+    - env -i bash --noprofile --norc -c "/grader/grade ch.epfl.lamp.grading.CourseraGrading -"
