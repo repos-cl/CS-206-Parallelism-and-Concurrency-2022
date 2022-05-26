@@ -1,0 +1,2 @@
+- Empty handouts and instructions: <https://gitlab.epfl.ch/lamp/cs206/-/tree/master/previous-exams/2021-final>.
+- Solutions: <https://gitlab.epfl.ch/lamp/cs206/-/tree/master/previous-exams/2021-final-solutions>
