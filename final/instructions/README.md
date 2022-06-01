@@ -17,7 +17,14 @@ You should submit your answers by pushing your code to GitLab. Don't forget to p
 ## How to obtain questions
 
 
-We have prepared each assignment similarly to labs: the problem statements are markdown files in the following directory: https://gitlab.epfl.ch/lamp/cs206/-/tree/master/final/instructions/; the code skeleton for each problem is in a separate branch of your private GitLab repository.
+We have prepared each assignment similarly to labs: the problem statements are markdown files in the directory <https://gitlab.epfl.ch/lamp/cs206/-/tree/master/final/instructions>:
+
+- [Problem 1: Combiners](concpar22final01.md)
+- [Problem 2: Wait and Notify](concpar22final02.md)
+- [Problem 3: Futures](concpar22final03.md)
+- [Problem 4: Actors](concpar22final04.md)
+
+The code skeleton for each problem is in a separate branch of your private GitLab repository.
 
 ## How to submit your solutions
 
@@ -52,7 +59,7 @@ You need to push your code to GitLab to receive a grade. If you forget to submit
 
 We expect that the exam can be completed reasonably on a laptop with around 14" screen, 1920x1080 resolution, and a reasonable CPU and RAM, such that the price (with Windows or Linux OS) remains under 1000 CHF. You are allowed to bring an external keyboard and a mouse. You are not allowed to use any other screen than your laptop's (this includes laptop screens, external monitors, tablets such as ipads and others, or phones, to give a few examples). We ask you to turn off your mobile devices during the exam. If you need multiple power sockets during the exam, please bring a socket strip with a straight plug (not a 90 degree one), as we are only guaranteeing to provide one socket per one student. 
 
-We do not provide wired ethernet and expect you to use EPFL or Eduroam WiFi network, which will be available. Please test your setup at EPFL, including the WiFi connection, before the exam. Do not change your hardware setup during the exam, unless it becomes absolutely necessary for you to continue the work. We advise you to keep your setup as robust and simple as possible and focus on solving the questions.
+We do not provide wired ethernet and expect you to use EPFL WiFi network, which will be available. Please test your setup at EPFL, including the WiFi connection, before the exam. Do not change your hardware setup during the exam, unless it becomes absolutely necessary for you to continue the work. We advise you to keep your setup as robust and simple as possible and focus on solving the questions.
 
-If you anticipate difficultues in arranging your computer setup for the exam according to the above instructions, please contact us immediately to discuss possible solutions.
+If you anticipate difficulties in arranging your computer setup for the exam according to the above instructions, please contact us immediately to discuss possible solutions.
 
