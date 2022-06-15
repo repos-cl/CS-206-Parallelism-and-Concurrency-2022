@@ -67,39 +67,39 @@ Before each Exercise session, students should watch videos corresponding to that
 
 ### Parallelism 1: Introduction to Parallel Programming
 
-- [Introduction to Parallel Computing](https://www.youtube.com/watch?v=94O72nyNFY0)
-- [Parallelism on the JVM I](https://www.youtube.com/watch?v=I8w-q1TPtjA)
-- [Parallelism on the JVM II](https://www.youtube.com/watch?v=BbVWGWTNAXw)
-- [Running Computations in Parallel](https://www.youtube.com/watch?v=KkMZGJ3M2-o)
-- [Monte Carlo Method to Estimate Pi](https://www.youtube.com/watch?v=VBCf-aTgpPU)
-- [First-Class Tasks](https://www.youtube.com/watch?v=mrVVaXCuhBc)
-- [How Fast are Parallel Programs?](https://www.youtube.com/watch?v=Lpnexp_Qxgo)
-- [Benchmarking Parallel Programs](https://www.youtube.com/watch?v=LvS_kjCssfg)
+- [Introduction to Parallel Computing](https://www.youtube.com/watch?v=RNVIcm8-6RE&list=PLOhKADai-veUWo2cEAJ4JfC9Ssaa9Isbl)
+- [Parallelism on the JVM I](https://www.youtube.com/watch?v=ZWJC4pgicK0&list=PLOhKADai-veUWo2cEAJ4JfC9Ssaa9Isbl)
+- [Parallelism on the JVM II](https://www.youtube.com/watch?v=BKf4X70Oozg&list=PLOhKADai-veUWo2cEAJ4JfC9Ssaa9Isbl)
+- [Running Computations in Parallel](https://www.youtube.com/watch?v=DbVt8C0-Oe0&list=PLOhKADai-veUWo2cEAJ4JfC9Ssaa9Isbl)
+- [Monte Carlo Method to Estimate Pi](https://www.youtube.com/watch?v=PLURfYr-rdU&list=PLOhKADai-veUWo2cEAJ4JfC9Ssaa9Isbl)
+- [First-Class Tasks](https://www.youtube.com/watch?v=gE-JDdxegMc&list=PLOhKADai-veUWo2cEAJ4JfC9Ssaa9Isbl)
+- [How Fast are Parallel Programs?](https://www.youtube.com/watch?v=kF-15rJ_iPM&list=PLOhKADai-veUWo2cEAJ4JfC9Ssaa9Isbl)
+- [Benchmarking Parallel Programs](https://www.youtube.com/watch?v=AxqeZ-3jSJ4&list=PLOhKADai-veUWo2cEAJ4JfC9Ssaa9Isbl)
 
 ### Parallelism 2: Basic Task Parallel Algorithms
 
-- [Parallel Sorting](https://www.youtube.com/watch?v=AcuvVgQbphg)
-- [Data Operations and Parallel Mapping](https://www.youtube.com/watch?v=ghYtMLrphZw)
-- [Parallel Fold (Reduce) Operation](https://www.youtube.com/watch?v=hEBgyhIoWww)
-- [Associativity I](https://www.youtube.com/watch?v=q-Cl3whISCY)
-- [Associativity II](https://www.youtube.com/watch?v=XBjqYavDUB8)
-- [Parallel Scan (Prefix Sum) Operation](https://www.youtube.com/watch?v=CYr3YaQiMwo)
+- [Parallel Sorting](https://www.youtube.com/watch?v=79LsvRiSWac&list=PLOhKADai-veVs9X1yH7QEmAAtohmwbQXs)
+- [Data Operations and Parallel Mapping](https://www.youtube.com/watch?v=pZZgG81vROA&list=PLOhKADai-veVs9X1yH7QEmAAtohmwbQXs)
+- [Parallel Fold (Reduce) Operation](https://www.youtube.com/watch?v=JQxmbpyenko&list=PLOhKADai-veVs9X1yH7QEmAAtohmwbQXs)
+- [Associativity I](https://www.youtube.com/watch?v=SYNsjfiH53I&list=PLOhKADai-veVs9X1yH7QEmAAtohmwbQXs)
+- [Associativity II](https://www.youtube.com/watch?v=ggxWa9JvQvY&list=PLOhKADai-veVs9X1yH7QEmAAtohmwbQXs)
+- [Parallel Scan (Prefix Sum) Operation](https://www.youtube.com/watch?v=0XzO9H20dk0&list=PLOhKADai-veVs9X1yH7QEmAAtohmwbQXs)
 
 ### Parallelism 3: Data-Parallelism
 
-- [Data-Parallel Programming](https://www.youtube.com/watch?v=WW7TabCiOV8)
-- [Data-Parallel Operations I](https://www.youtube.com/watch?v=Vd35YQ8DEO4)
-- [Data-Parallel Operations II](https://www.youtube.com/watch?v=dcMgKtuAh3s)
-- [Scala Parallel Operations](https://www.youtube.com/watch?v=NjkxjAT7ohE)
-- [Splitters and Combiners](https://www.youtube.com/watch?v=Redz85Nlle4)
+- [Data-Parallel Programming](https://www.youtube.com/watch?v=Zksc1aEiV_s&list=PLOhKADai-veVfGEHmUShjPwjbmoofbY-N)
+- [Data-Parallel Operations I](https://www.youtube.com/watch?v=Nj2gk-IA9OU&list=PLOhKADai-veVfGEHmUShjPwjbmoofbY-N)
+- [Data-Parallel Operations II](https://www.youtube.com/watch?v=lXmvqLRftZQ&list=PLOhKADai-veVfGEHmUShjPwjbmoofbY-N)
+- [Scala Parallel Operations](https://www.youtube.com/watch?v=pEltisww8BE&list=PLOhKADai-veVfGEHmUShjPwjbmoofbY-N)
+- [Splitters and Combiners](https://www.youtube.com/watch?v=p50y6d6UdAk&list=PLOhKADai-veVfGEHmUShjPwjbmoofbY-N)
 
 ### Parallelism 4: Data-Structures for Parallel Computing
 
-- [Implementing Combiners](https://www.youtube.com/watch?v=dTP0ntniB2I)
-- [Parallel Two-phase Construction](https://www.youtube.com/watch?v=XcMtq3OdjQ0)
-- [Conc-Tree Data Structure](https://www.youtube.com/watch?v=cUXHXKL8Xvs)
-- [Amortized, Constant-Time Append Operation](https://www.youtube.com/watch?v=Ic5DUZLITVI)
-- [Conc-Tree Combiners](https://www.youtube.com/watch?v=aLfFlCC1vjc)
+- [Implementing Combiners](https://www.youtube.com/watch?v=q0DtFzMCWe8&list=PLOhKADai-veXBqCTu6IzQ6IG0Me2Fh8ju)
+- [Parallel Two-phase Construction](https://www.youtube.com/watch?v=PzHvNEs3gOw&list=PLOhKADai-veXBqCTu6IzQ6IG0Me2Fh8ju)
+- [Conc-Tree Data Structure](https://www.youtube.com/watch?v=o0NR9GrcHQo&list=PLOhKADai-veXBqCTu6IzQ6IG0Me2Fh8ju)
+- [Amortized, Constant-Time Append Operation](https://www.youtube.com/watch?v=JgX3EZB7Zgs&list=PLOhKADai-veXBqCTu6IzQ6IG0Me2Fh8ju)
+- [Conc-Tree Combiners](https://www.youtube.com/watch?v=CumM8JCbmDo&list=PLOhKADai-veXBqCTu6IzQ6IG0Me2Fh8ju)
 
 ### Futures
  - [Lecture from 2020](https://www.youtube.com/watch?v=XznYvMjA-7s&t=2499s)
