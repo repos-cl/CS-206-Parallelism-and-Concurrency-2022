@@ -1,8 +1,0 @@
-.vscode
-.metals
-.bloop
-.bsp
-target
-metals.sbt
-build.properties
-project/project
