@@ -4,6 +4,8 @@ Wednesday, 1 June 2022, 16:15 - 18:45
 
 Rooms: INF1, INF2, CO1. seating plan at https://gitlab.epfl.ch/lamp/cs206/-/tree/master/final
 
+**If <https://gitlab.epfl.ch> is not responding, use <https://ic-gitlab.epfl.ch>.**
+
 *Exam rooms are equipped with computer plugs. Students must bring their own laptops that are capable of developing and locally testing assignments such as labs done during the semester. As a student, it is your responsibility to ensure that you have access to reliable hardware and software for the duration of the exam. Please make sure that you are comfortable using the usual tools from the class, so that you can focus on the exam. If you have trouble assuring access to a laptop and are willing to work with a rented one, please contact us ASAP and we will explore if we can get you one to use during the exam.*
 
 This is an open-book exam. For example, you are allowed to consult the PDF slides for all lectures in this course and the Functional Programming course and do Google search. The final exam will cover all the material seen during the semester.

@@ -27,7 +27,7 @@ In this exercise, you will implement the core functionalities of an online music
 
 - Each user has a unique identifier and a name.
 - Each user can like and unlike songs (stored in the user's _liked songs_ list). Liked songs are sorted by reverse date of liking time (the last liked song must be the first element of the list). Elements of this list must be unique: a song can only be liked once. Liking a song twice should not impact the order.
-- Each user can subscribe and unsubscribe to other users to see what they are listening to. This is stored in the user's _activity feed_. The items in the activity feed are sorted by reverse date of activity time (the last added activity must be the first element of the list). Items in this list should be unique by user id. If a new activity with a user id that is already in the list is added, the former should be removed, so that we always see the latest activity for each user we have subscribed to.
+- Each user can subscribe and unsubscribe to other users to see what they are listening to. This is stored in the user's _activity feed_. The items in the activity feed are sorted by reverse date of activity time (the last added activity must be the first element of the list). Items in this list should be unique by user. If a new activity with a user that is already in the list is added, the former should be removed, so that we always see the latest activity for each user we have subscribed to. You can assume that there is a single actor and `ActorRef` per user.
 
 This corresponds to the core features of Spotify:
 
